@@ -99,7 +99,7 @@ class HashTable:
         """
         i = self.hash_index(key)
 
-        self.capacity[i] = [None]
+        self.capacity[i] = None
 
 
     def get(self, key):
